@@ -129,13 +129,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Computer Science Internships" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5L-Jd-Ruq">
-                                <rect key="frame" x="23" y="63" width="368" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
-                                <color key="textColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHm-P4-huR">
                                 <rect key="frame" x="30" y="20" width="89" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -154,27 +147,35 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="SIV-Ih-jGC"/>
                                 </connections>
                             </button>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XlR-M6-BcZ">
-                                <rect key="frame" x="0.0" y="586" width="414" height="193"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W3Y-FZ-TSF">
-                                <rect key="frame" x="10" y="89" width="394" height="529"/>
+                                <rect key="frame" x="28" y="176" width="366" height="509"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. https://www.codelikeagirl.com/internships/apply/?ja-job=1368303
-
-Description: As a Code Like a Girl Intern, you'll get paid to gain real-world experience with some of our leading industry partners.
+                                <mutableString key="text">Description: As a Code Like a Girl Intern, you'll get paid to gain real-world experience with some of our leading industry partners.
 You'll get to learn by doing and experience what it's like to work within an established tech team. You’ll contribute to real projects which means accelerated professional (and personal) development whilst building a network of meaningful relationships with important industry peers and leaders.
 We understand that building technology takes a team and there's more than just one role for people working in tech. By working in a real team, you'll see first-hand what the different roles in tech are, what different people do, and you might even start to see what kind of role might be right for you!
 </mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1w3-GD-41T">
+                                <rect key="frame" x="151" y="693" width="112" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Website">
+                                    <color key="baseForegroundColor" red="0.218589272" green="0.3353714008" blue="0.63567961110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="CLAG:" destination="hfY-hK-9Mt" eventType="touchUpInside" id="eDl-ZJ-jFL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Computer Science Internships: Code Like A Girl" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5L-Jd-Ruq">
+                                <rect key="frame" x="13" y="80" width="389" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IGg-eq-ll7"/>
@@ -183,6 +184,7 @@ We understand that building technology takes a team and there's more than just o
                     <navigationItem key="navigationItem" id="Tpv-rp-yQb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xwp-Bv-eem" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="hfY-hK-9Mt" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="860.86956521739137" y="-670.3125"/>
         </scene>
@@ -587,21 +589,14 @@ We understand that building technology takes a team and there's more than just o
             </objects>
             <point key="canvasLocation" x="862" y="56"/>
         </scene>
-        <!--View Controller-->
+        <!--Table View Controller2 View Controller-->
         <scene sceneID="MTl-Qc-A2C">
             <objects>
-                <viewController id="OYy-0a-nfg" sceneMemberID="viewController">
+                <viewController id="OYy-0a-nfg" customClass="TableViewController2ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DOY-Qy-Oe7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education Internships" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBl-pI-Nsd">
-                                <rect key="frame" x="75" y="68" width="265" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
-                                <color key="textColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fkz-Wd-c9k">
                                 <rect key="frame" x="20" y="25" width="89" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -622,7 +617,7 @@ We understand that building technology takes a team and there's more than just o
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mng-s6-Dkp">
-                                <rect key="frame" x="35" y="120" width="359" height="284"/>
+                                <rect key="frame" x="28" y="195" width="359" height="348"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">2. The girl code internship
 
@@ -632,45 +627,41 @@ Application form: https://docs.google.com/forms/d/e/1FAIpQLSdNnrbYFbdkTMnlod-Pp7
 
 Position: Tutor, teaching students (esp girls) to code- focusing mainly on teaching students from rural regions.
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mPP-gn-L5r">
-                                <rect key="frame" x="0.0" y="412" width="414" height="163"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ied-B8-dnW">
+                                <rect key="frame" x="149" y="563" width="117" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0GG-LI-Bpl">
-                                <rect key="frame" x="0.0" y="596" width="414" height="165"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzu-4Y-bef">
-                                <rect key="frame" x="306" y="783" width="88" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.095001910480000007" green="0.5" blue="0.24270284819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="NEXT &gt;">
-                                            <attributes>
-                                                <font key="NSFont" size="18" name="Helvetica"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Website">
+                                    <color key="baseForegroundColor" red="0.083398245290000006" green="0.5" blue="0.23401300080000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="TGCWebsite:" destination="kKW-P1-V4f" eventType="touchUpInside" id="ZUZ-9d-EGQ"/>
+                                </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbB-jP-Bv6">
+                                <rect key="frame" x="126" y="666" width="162" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Application Form">
+                                    <color key="baseForegroundColor" red="0.083398245290000006" green="0.5" blue="0.23401300080000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="TGCAppForm:" destination="kKW-P1-V4f" eventType="touchUpInside" id="OE4-lg-a0j"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education Internships: The Girl Code" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBl-pI-Nsd">
+                                <rect key="frame" x="68" y="88" width="279" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="myG-Tg-4yg"/>
                         <color key="backgroundColor" red="0.083398245290000006" green="0.5" blue="0.23401300080000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -678,19 +669,20 @@ Position: Tutor, teaching students (esp girls) to code- focusing mainly on teach
                     <navigationItem key="navigationItem" id="mmh-cF-iaY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wxJ-6v-k4N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="kKW-P1-V4f" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-1736.2318840579712" y="55.580357142857139"/>
         </scene>
         <!--Back-->
         <scene sceneID="qhX-UW-Ef1">
             <objects>
-                <viewController id="gCD-bt-iTF" sceneMemberID="viewController">
+                <viewController id="gCD-bt-iTF" customClass="TableViewController2ViewController" customModule="InternshipFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rTv-Z6-98W">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education Internships" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fak-ze-bX9">
-                                <rect key="frame" x="75" y="63" width="265" height="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education Internships: STEAM Boat" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fak-ze-bX9">
+                                <rect key="frame" x="50" y="63" width="310" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <color key="textColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -718,25 +710,13 @@ Position: Tutor, teaching students (esp girls) to code- focusing mainly on teach
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1z-T4-b65">
                                 <rect key="frame" x="480" y="255" width="1013" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. The STEAM boat internship. https://thesteamboat.godaddysites.com
+                                <string key="text">1. The STEAM boat internship. https://thesteamboat.godaddysites.com
 Position: Researcher
  Descriptions: For now, there are two things that need to be researched. STEAM topics and contests/opportunities in STEAM for us to share. We want to inspire new ideas for them and for them to have more outlets to share their work. These will be posted on our Instagram after our graphic design team adds their flavor to it!
 Responsibilities: You’ll be researching one STEAM topic per week. Sometimes this is given to you and other times you will be able to choose. You’ll also need to look for one contest/opportunity per week as well. You’ll need to add them to the corresponding document provided in Google Classroom, with your name included. Make sure to check Slack and Google Classroom frequently to keep up to date with your assignments and any announcements.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldF-ay-ZEg">
-                                <rect key="frame" x="20" y="101" width="394" height="513"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. The STEAM boat internship. https://thesteamboat.godaddysites.com
-Position: Researcher
- Descriptions: For now, there are two things that need to be researched. STEAM topics and contests/opportunities in STEAM for us to share. We want to inspire new ideas for them and for them to have more outlets to share their work. These will be posted on our Instagram after our graphic design team adds their flavor to it!
-Responsibilities: You’ll be researching one STEAM topic per week. Sometimes this is given to you and other times you will be able to choose. You’ll also need to look for one contest/opportunity per week as well. You’ll need to add them to the corresponding document provided in Google Classroom, with your name included. Make sure to check Slack and Google Classroom frequently to keep up to date with your assignments and any announcements.
-</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWi-d3-JyW">
@@ -759,15 +739,30 @@ Responsibilities: You’ll be researching one STEAM topic per week. Sometimes 
                                     <segue destination="OYy-0a-nfg" kind="show" id="1hT-gx-2mK"/>
                                 </connections>
                             </button>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2bJ-cE-XJi">
-                                <rect key="frame" x="0.0" y="592" width="414" height="181"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Amy-IS-ejt">
+                                <rect key="frame" x="143" y="718" width="128" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Website">
+                                    <color key="baseForegroundColor" red="0.083398245290000006" green="0.5" blue="0.23401300080000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="STEAMBoat:" destination="44I-vV-p6J" eventType="touchUpInside" id="9V0-nV-upJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldF-ay-ZEg">
+                                <rect key="frame" x="20" y="148" width="370" height="574"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">The STEAM boat internship. https://thesteamboat.godaddysites.com
+Position: Researcher
+Descriptions: For now, there are two things that need to be researched. STEAM topics and contests/opportunities in STEAM for us to share. We want to inspire new ideas for them and for them to have more outlets to share their work. These will be posted on our Instagram after our graphic design team adds their flavor to it!
+Responsibilities: You’ll be researching one STEAM topic per week. Sometimes this is given to you and other times you will be able to choose. You’ll also need to look for one contest/opportunity per week as well. You’ll need to add them to the corresponding document provided in Google Classroom, with your name included. Make sure to check Slack and Google Classroom frequently to keep up to date with your assignments and any announcements.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gQ7-3J-EMZ"/>
                         <color key="backgroundColor" red="0.083398245290000006" green="0.5" blue="0.23401300080000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -777,13 +772,14 @@ Responsibilities: You’ll be researching one STEAM topic per week. Sometimes 
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Apk-r4-IXw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="44I-vV-p6J" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-910.14492753623199" y="55.580357142857139"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="RLe-HU-Pbc"/>
-        <segue reference="yeL-aA-NJd"/>
+        <segue reference="TZc-kK-k1O"/>
+        <segue reference="KDn-hu-myu"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG_7785" width="558" height="984"/>

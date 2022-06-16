@@ -14,6 +14,8 @@
 		C38298742857962200452389 /* InternshipFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C38298722857962200452389 /* InternshipFinder.xcdatamodeld */; };
 		C38298762857962500452389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38298752857962500452389 /* Assets.xcassets */; };
 		C38298792857962500452389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38298772857962500452389 /* LaunchScreen.storyboard */; };
+		C3E7110D285BA76D00504459 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E7110C285BA76C00504459 /* WebKit.framework */; };
+		C3E7110F285BB5DE00504459 /* TableViewController2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E7110E285BB5DE00504459 /* TableViewController2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C38298752857962500452389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C38298782857962500452389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C382987A2857962500452389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E7110C285BA76C00504459 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C3E7110E285BB5DE00504459 /* TableViewController2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E7110D285BA76D00504459 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,7 @@
 			children = (
 				C38298682857962200452389 /* InternshipFinder */,
 				C38298672857962200452389 /* Products */,
+				C3E7110B285BA76C00504459 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +72,17 @@
 				C38298772857962500452389 /* LaunchScreen.storyboard */,
 				C382987A2857962500452389 /* Info.plist */,
 				C38298722857962200452389 /* InternshipFinder.xcdatamodeld */,
+				C3E7110E285BB5DE00504459 /* TableViewController2ViewController.swift */,
 			);
 			path = InternshipFinder;
+			sourceTree = "<group>";
+		};
+		C3E7110B285BA76C00504459 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3E7110C285BA76C00504459 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E7110F285BB5DE00504459 /* TableViewController2ViewController.swift in Sources */,
 				C382986E2857962200452389 /* ViewController.swift in Sources */,
 				C38298742857962200452389 /* InternshipFinder.xcdatamodeld in Sources */,
 				C382986A2857962200452389 /* AppDelegate.swift in Sources */,
