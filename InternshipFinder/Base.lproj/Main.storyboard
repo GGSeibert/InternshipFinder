@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Table View Controller2 View Controller-->
         <scene sceneID="OId-Cc-9hj">
             <objects>
-                <viewController id="aWi-jL-se1" sceneMemberID="viewController">
+                <viewController id="aWi-jL-se1" customClass="TableViewController2ViewController" customModule="InternshipFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i3x-qG-xjm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,30 +41,6 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="fpw-4j-z5K"/>
                                 </connections>
                             </button>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A4E-aZ-tDN">
-                                <rect key="frame" x="49" y="189" width="314" height="508"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do you have another suggestion? Add it here: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zap-Pd-c4g">
-                                <rect key="frame" x="33" y="728" width="347" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hs-L0-jVP">
-                                <rect key="frame" x="120" y="797" width="192" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.095001910480000007" green="0.5" blue="0.24270284819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lnH-sL-Fw7"/>
                         <color key="backgroundColor" red="0.1705808449" green="0.4682656644" blue="0.80683390300000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -75,10 +51,10 @@
             </objects>
             <point key="canvasLocation" x="-910.14492753623199" y="-670.3125"/>
         </scene>
-        <!--View Controller-->
+        <!--Table View Controller2 View Controller-->
         <scene sceneID="FVK-Fu-rao">
             <objects>
-                <viewController id="cip-9S-Nqh" sceneMemberID="viewController">
+                <viewController id="cip-9S-Nqh" customClass="TableViewController2ViewController" customModule="InternshipFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Djp-95-iBM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,10 +97,10 @@
             </objects>
             <point key="canvasLocation" x="-17.39130434782609" y="-669.64285714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Table View Controller2 View Controller-->
         <scene sceneID="4z6-Vs-0wb">
             <objects>
-                <viewController id="UZD-M9-VFL" sceneMemberID="viewController">
+                <viewController id="UZD-M9-VFL" customClass="TableViewController2ViewController" customModule="InternshipFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lEe-Va-Nhb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -150,10 +126,10 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W3Y-FZ-TSF">
                                 <rect key="frame" x="28" y="176" width="366" height="509"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Description: As a Code Like a Girl Intern, you'll get paid to gain real-world experience with some of our leading industry partners.
+                                <string key="text">Description: As a Code Like a Girl Intern, you'll get paid to gain real-world experience with some of our leading industry partners.
 You'll get to learn by doing and experience what it's like to work within an established tech team. You’ll contribute to real projects which means accelerated professional (and personal) development whilst building a network of meaningful relationships with important industry peers and leaders.
 We understand that building technology takes a team and there's more than just one role for people working in tech. By working in a real team, you'll see first-hand what the different roles in tech are, what different people do, and you might even start to see what kind of role might be right for you!
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -168,6 +144,7 @@ We understand that building technology takes a team and there's more than just o
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="CLAG:" destination="hfY-hK-9Mt" eventType="touchUpInside" id="eDl-ZJ-jFL"/>
+                                    <action selector="CLAGWeb:" destination="UZD-M9-VFL" eventType="touchUpInside" id="pHR-Dw-ZRV"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Computer Science Internships: Code Like A Girl" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5L-Jd-Ruq">
@@ -177,6 +154,25 @@ We understand that building technology takes a team and there's more than just o
                                 <color key="textColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYo-GP-Nao">
+                                <rect key="frame" x="306" y="778" width="88" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="NEXT &gt;">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="NfI-WZ-GPT" kind="show" id="n36-Gf-ETe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IGg-eq-ll7"/>
                         <color key="backgroundColor" red="0.218589272" green="0.3353714008" blue="0.63567961110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -188,17 +184,82 @@ We understand that building technology takes a team and there's more than just o
             </objects>
             <point key="canvasLocation" x="860.86956521739137" y="-670.3125"/>
         </scene>
-        <!--View Controller-->
+        <!--Table View Controller2 View Controller-->
+        <scene sceneID="RPA-FE-nj0">
+            <objects>
+                <viewController id="NfI-WZ-GPT" customClass="TableViewController2ViewController" customModule="InternshipFinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R7e-0n-c82">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Computer Science Internships: Qintern (Quantum Computing)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9iJ-65-KDg">
+                                <rect key="frame" x="13" y="76" width="389" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0aZ-TX-hbu">
+                                <rect key="frame" x="13" y="20" width="89" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="&lt; BACK">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="UZD-M9-VFL" kind="show" id="5CW-5i-tI5"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUu-jJ-PK2">
+                                <rect key="frame" x="24" y="174" width="366" height="509"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Description:
+QIntern is the summer quantum internship program of the QWorld Association, hosted by the QResearch Department. The goal of QIntern is to encourage and support collaborative work in quantum information science and technology, bringing together more experienced people (mentors) and those willing to learn more (interns).
+In case of successful application, each intern is assigned to a project and gets involved in developing new software, education materials, or research results. The scope of the projects is broad and the mentors represent different areas of research and practice in the quantum world. Some internships may result in longer collaborations.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xf7-6u-aOg">
+                                <rect key="frame" x="145" y="712" width="124" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Website">
+                                    <color key="baseForegroundColor" red="0.218589272" green="0.3353714008" blue="0.63567961110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="QIWeb:" destination="NfI-WZ-GPT" eventType="touchUpInside" id="Nif-yq-eQG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FXT-zD-KRB"/>
+                        <color key="backgroundColor" red="0.218589272" green="0.3353714008" blue="0.63567961110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ngh-LP-bhG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o2y-qk-cWs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1771.0144927536232" y="-670.3125"/>
+        </scene>
+        <!--Table View Controller2 View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="InternshipFinder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="TableViewController2ViewController" customModule="InternshipFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8EO-2U-UeO">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8EO-2U-UeO">
                                 <rect key="frame" x="0.0" y="316" width="414" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Education">
                                     <color key="baseBackgroundColor" red="0.095001910475787266" green="0.5" blue="0.24270284824086702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -273,13 +334,11 @@ We understand that building technology takes a team and there's more than just o
                                     <segue destination="UZD-M9-VFL" kind="show" id="x9h-L4-QeO"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-15 at 11.04.07 AM" translatesAutoresizingMaskIntoConstraints="NO" id="m9g-Y9-LBx">
-                                <rect key="frame" x="75" y="44" width="272" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-06-15 at 11.04.07 AM" translatesAutoresizingMaskIntoConstraints="NO" id="m9g-Y9-LBx">
+                                <rect key="frame" x="75" y="0.0" width="272" height="130"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Pw-w6-Ld5">
-                                <rect key="frame" x="57" y="180" width="308" height="102"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Pw-w6-Ld5">
+                                <rect key="frame" x="57" y="182" width="308" height="92"/>
                                 <string key="text">Find the internship that is right for you, according to your interests. Click on the button that fits your interests best and see some internship ideas!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -288,6 +347,14 @@ We understand that building technology takes a team and there's more than just o
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8EO-2U-UeO" firstAttribute="top" secondItem="2Pw-w6-Ld5" secondAttribute="bottom" constant="42" id="62r-Wi-Mvv"/>
+                            <constraint firstItem="m9g-Y9-LBx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="8IA-vP-40D"/>
+                            <constraint firstItem="2Pw-w6-Ld5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="138" id="IHI-ZP-ch1"/>
+                            <constraint firstItem="2Pw-w6-Ld5" firstAttribute="top" secondItem="m9g-Y9-LBx" secondAttribute="bottom" constant="8" symbolic="YES" id="bj3-zc-PeB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="m9g-Y9-LBx" secondAttribute="trailing" constant="67" id="dXy-QU-FF3"/>
+                            <constraint firstItem="m9g-Y9-LBx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wC4-iN-vfD"/>
+                        </constraints>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="jz2-A3-GDs"/>
@@ -297,23 +364,96 @@ We understand that building technology takes a team and there's more than just o
             </objects>
             <point key="canvasLocation" x="-23.188405797101453" y="55.580357142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Table View Controller2 View Controller-->
+        <scene sceneID="JaK-dQ-6tm">
+            <objects>
+                <viewController id="umN-qd-FFy" customClass="TableViewController2ViewController" customModule="InternshipFinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zmd-9C-O9H">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHs-np-DfT">
+                                <rect key="frame" x="43" y="44" width="89" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="&lt; BACK">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Vdb-Ks-VtK" kind="show" id="Xrc-tD-yyR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Graphic Design Internships: CitronTalk" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bo-R9-EzX">
+                                <rect key="frame" x="0.0" y="99" width="414" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXa-1l-3s3">
+                                <rect key="frame" x="28" y="197" width="358" height="456"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">CitronTalk is a student-led non-profit organization that aims at promoting awareness surrounding social stigmas and issues that are overlooked and more or less regarded as taboo by the society. We address crucial subjects that include (but are not limited to) the LGBTQIA+ community, women empowerment and mental health through experience-based and persuasive articles penned by our team of writers.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRG-8F-KGL">
+                                <rect key="frame" x="157" y="661" width="100" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Website">
+                                    <color key="baseForegroundColor" red="0.2788722421" green="0.48683976750000002" blue="0.63567961110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="citronTalkWeb:" destination="umN-qd-FFy" eventType="touchUpInside" id="O1K-WW-70w"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Apply through email: recruit@citrontalk.com" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="My9-Q1-9np">
+                                <rect key="frame" x="100" y="746" width="214" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.2788722421" green="0.48683976750000002" blue="0.63567961110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.2788722421" green="0.48683976750000002" blue="0.63567961110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BH9-2C-E2k"/>
+                        <color key="backgroundColor" red="0.2788722421" green="0.48683976750000002" blue="0.63567961110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bF2-dI-Pyi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sTL-eP-vqB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1797.1014492753625" y="807.58928571428567"/>
+        </scene>
+        <!--Table View Controller2 View Controller-->
         <scene sceneID="WmN-DD-HVw">
             <objects>
-                <viewController id="Vdb-Ks-VtK" sceneMemberID="viewController">
+                <viewController id="Vdb-Ks-VtK" customClass="TableViewController2ViewController" customModule="InternshipFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mcj-Ya-8l6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Graphic Design Internships" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqE-T1-DuG">
-                                <rect key="frame" x="34" y="155" width="329" height="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Graphic Design Internships: CHÉRIE MAGAZINE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqE-T1-DuG">
+                                <rect key="frame" x="20" y="92" width="348" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <color key="textColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nux-wc-qwQ">
-                                <rect key="frame" x="37" y="75" width="89" height="47"/>
+                                <rect key="frame" x="34" y="37" width="89" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -330,30 +470,58 @@ We understand that building technology takes a team and there's more than just o
                                     <segue destination="BYZ-38-t0r" kind="show" id="B1g-lm-CNA"/>
                                 </connections>
                             </button>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="372-yW-hgB">
-                                <rect key="frame" x="49" y="221" width="317" height="511"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9kV-Da-bb9">
+                                <rect key="frame" x="53" y="191" width="291" height="285"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Do you have another suggestion? Add it here: " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P6l-b5-I85">
-                                <rect key="frame" x="34" y="759" width="357" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Job Description:
+As a graphic designer working for our magazine you will have to design the digital magazine cover monthly and incorporate ideas into art.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K7a-Uf-ycn">
-                                <rect key="frame" x="117" y="801" width="192" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.13014437619999999" green="0.62974741000000001" blue="0.3359152547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYe-qP-cdj">
+                                <rect key="frame" x="148" y="504" width="100" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Website">
+                                    <color key="baseForegroundColor" red="0.2788722421" green="0.48683976750000002" blue="0.63567961110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="cherieWeb:" destination="Vdb-Ks-VtK" eventType="touchUpInside" id="q8O-en-guP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zqq-hv-b7r">
+                                <rect key="frame" x="125" y="609" width="146" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Application Form">
+                                    <color key="baseForegroundColor" red="0.2788722421" green="0.48683976750000002" blue="0.63567961110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="cherieAppForm:" destination="Vdb-Ks-VtK" eventType="touchUpInside" id="tQe-nD-zuU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSp-uQ-1z1">
+                                <rect key="frame" x="280" y="758" width="88" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="NEXT &gt;">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="umN-qd-FFy" kind="show" id="SDK-WF-7vq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sWj-5Q-Vgw"/>
                         <color key="backgroundColor" red="0.2788722421" green="0.48683976750000002" blue="0.63567961110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -364,10 +532,10 @@ We understand that building technology takes a team and there's more than just o
             </objects>
             <point key="canvasLocation" x="-910.14492753623199" y="807.58928571428567"/>
         </scene>
-        <!--View Controller-->
+        <!--Table View Controller2 View Controller-->
         <scene sceneID="m1e-4c-8ig">
             <objects>
-                <viewController id="SbS-ux-gIk" sceneMemberID="viewController">
+                <viewController id="SbS-ux-gIk" customClass="TableViewController2ViewController" customModule="InternshipFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3aO-Ht-NnC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -385,22 +553,6 @@ We understand that building technology takes a team and there's more than just o
                                 </attributedString>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Do you have another suggestion? Add it here: " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ypq-X1-ZxF">
-                                <rect key="frame" x="29" y="720" width="357" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vwA-Lm-Aer">
-                                <rect key="frame" x="48" y="180" width="317" height="511"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQI-XE-UcI">
                                 <rect key="frame" x="27" y="62" width="89" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -420,14 +572,6 @@ We understand that building technology takes a team and there's more than just o
                                     <segue destination="BYZ-38-t0r" kind="show" id="IYV-4q-zSt"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGv-Gy-G2V">
-                                <rect key="frame" x="111" y="762" width="192" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.13014437619999999" green="0.62974741000000001" blue="0.3359152547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="J5B-xU-7Il"/>
                         <color key="backgroundColor" red="0.4231709427" green="0.63567961110000004" blue="0.44087522899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -438,31 +582,14 @@ We understand that building technology takes a team and there's more than just o
             </objects>
             <point key="canvasLocation" x="-17.39130434782609" y="807.58928571428567"/>
         </scene>
-        <!--View Controller-->
+        <!--Table View Controller2 View Controller-->
         <scene sceneID="pUP-fb-Nyr">
             <objects>
-                <viewController id="X2f-yl-3fd" sceneMemberID="viewController">
+                <viewController id="X2f-yl-3fd" customClass="TableViewController2ViewController" customModule="InternshipFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Ac-Xx-zSV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Do you have another suggestion? Add it here: " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BRG-UP-nXb">
-                                <rect key="frame" x="31" y="729" width="367" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nyw-Rw-EP4">
-                                <rect key="frame" x="47" y="199" width="326" height="499"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2g-3z-bR3">
                                 <rect key="frame" x="20" y="81" width="89" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -481,14 +608,6 @@ We understand that building technology takes a team and there's more than just o
                                     <segue destination="BYZ-38-t0r" kind="show" id="QSk-d7-u5f"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FfC-Mx-trb">
-                                <rect key="frame" x="118" y="771" width="192" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.13014437619999999" green="0.62974741000000001" blue="0.3359152547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LRw-37-3ym">
                                 <rect key="frame" x="70" y="140" width="281" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -514,23 +633,14 @@ We understand that building technology takes a team and there's more than just o
             </objects>
             <point key="canvasLocation" x="860.86956521739137" y="807.58928571428567"/>
         </scene>
-        <!--View Controller-->
+        <!--Table View Controller2 View Controller-->
         <scene sceneID="9gc-qG-fl9">
             <objects>
-                <viewController id="BBX-NT-VXl" sceneMemberID="viewController">
+                <viewController id="BBX-NT-VXl" customClass="TableViewController2ViewController" customModule="InternshipFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xvc-mv-f4f">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U9r-kq-uoL">
-                                <rect key="frame" x="57" y="178" width="300" height="514"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xWz-Ag-Mjw">
                                 <rect key="frame" x="14" y="48" width="89" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -550,21 +660,6 @@ We understand that building technology takes a team and there's more than just o
                                     <segue destination="BYZ-38-t0r" kind="show" id="mkC-NL-epo"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do you have another suggestion? Add it here: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otu-L0-0gW">
-                                <rect key="frame" x="34" y="702" width="347" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t7w-pB-U46">
-                                <rect key="frame" x="111" y="771" width="192" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.9964528077" green="1" blue="0.97480208199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.13014437619999999" green="0.62974741000000001" blue="0.3359152547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6M-Zh-AXl">
                                 <rect key="frame" x="87" y="106" width="240" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -640,6 +735,7 @@ Position: Tutor, teaching students (esp girls) to code- focusing mainly on teach
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="TGCWeb:" destination="OYy-0a-nfg" eventType="touchUpInside" id="zmd-Lh-35p"/>
                                     <action selector="TGCWebsite:" destination="kKW-P1-V4f" eventType="touchUpInside" id="ZUZ-9d-EGQ"/>
                                 </connections>
                             </button>
@@ -653,6 +749,7 @@ Position: Tutor, teaching students (esp girls) to code- focusing mainly on teach
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="TGCAppForm:" destination="kKW-P1-V4f" eventType="touchUpInside" id="OE4-lg-a0j"/>
+                                    <action selector="TGCAppForm:" destination="OYy-0a-nfg" eventType="touchUpInside" id="xCr-nJ-APd"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education Internships: The Girl Code" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBl-pI-Nsd">
@@ -749,16 +846,17 @@ Responsibilities: You’ll be researching one STEAM topic per week. Sometimes 
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="STEAMBoat:" destination="44I-vV-p6J" eventType="touchUpInside" id="9V0-nV-upJ"/>
+                                    <action selector="STEAMBoatWeb:" destination="gCD-bt-iTF" eventType="touchUpInside" id="5bn-cQ-iZk"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldF-ay-ZEg">
                                 <rect key="frame" x="20" y="148" width="370" height="574"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">The STEAM boat internship. https://thesteamboat.godaddysites.com
+                                <string key="text">The STEAM boat internship. https://thesteamboat.godaddysites.com
 Position: Researcher
 Descriptions: For now, there are two things that need to be researched. STEAM topics and contests/opportunities in STEAM for us to share. We want to inspire new ideas for them and for them to have more outlets to share their work. These will be posted on our Instagram after our graphic design team adds their flavor to it!
 Responsibilities: You’ll be researching one STEAM topic per week. Sometimes this is given to you and other times you will be able to choose. You’ll also need to look for one contest/opportunity per week as well. You’ll need to add them to the corresponding document provided in Google Classroom, with your name included. Make sure to check Slack and Google Classroom frequently to keep up to date with your assignments and any announcements.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -778,8 +876,10 @@ Responsibilities: You’ll be researching one STEAM topic per week. Sometimes 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="TZc-kK-k1O"/>
+        <segue reference="RLe-HU-Pbc"/>
+        <segue reference="iPa-a7-xqY"/>
         <segue reference="KDn-hu-myu"/>
+        <segue reference="x9h-L4-QeO"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG_7785" width="558" height="984"/>
